@@ -39,7 +39,8 @@ public class AktivitetResource {
         
         return "test";
     }
-   
+    
+    @Path("/aktiviteter")
     @GET
     @Produces(MediaType.APPLICATION_JSON)
     public Response getAktiviteter() throws IOException {
